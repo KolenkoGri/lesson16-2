@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Droid Serif";
+    src: local("Droid Serif"), local("Droid-Serif-Regular"),local("Droid-Serif"),local("Droid Serif Regular"), url('fonts/DroidSerif.woff2') format("woff2"), 
+    url('fonts/DroidSerif.woff') format("woff");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    src: local("Droid Serif Bold"), local("Droid-Serif-Bold"), url('fonts/DroidSerif-Bold.woff2') format("woff2"), 
+    url('fonts/DroidSerif-Bold.woff') format("woff");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "lato-black";
+    src: local("lato-black"), local("lato black"), url('fonts/lato-black.woff2') format("woff2"), 
+    url('fonts/lato-black.woff') format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "lato-thinitalic";
+    src: local("lato-thinitalic"), local("lato thinitalic"), url('fonts/lato-thinitalic.woff2') format("woff2"), 
+    url('fonts/lato-thinitalic.woff') format("woff");
+    font-display: swap;
+}
+
+html {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: "Droid Serif" , "lato-black", "lato-thinitalic";
+}
+
+
+img, svg {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+iframe {
+    border: none;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.container {
+    max-width: 1770px;
+    padding: 0 30px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+body {
+    max-width: 1770px;
+}
+
+article {
+    margin: 100px 80px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.3;   
+}
+
+p { 
+    font-family: "Arial";
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 22px;
+    margin: 50px 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.care {
+    width: 1100px;
+}
+
+img {
+    text-align: left;
+}
